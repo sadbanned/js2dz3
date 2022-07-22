@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .two{
+            margin-left: 400px;
+            margin-top: -72px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="wrapper">
+        <div class="tenge">
+            <label for="tenge">tenge</label>
+            <input id="tenge" type="number">
+        </div>
+        <div class="sum">
+            <label for="sum">sum</label>
+            <input id="sum" type="number">
+        </div>
+    </div> -->
+
+    <p>
+        <label>TENGE</label>
+        <input type="number" id="inputtenge" placeholder="TENGE" oninput="moneyConverter(this.value)" onchange="
+        moneyConverter(this.value)">
+    </p>
+    <p>SUM: <span id="outputsum"></span></p>
+
+
+<div class="two">    <p>
+    <label>SUM</label>
+    <input type="number" id="inputsum" placeholder="SUM" oninput="moneyConverter1(this.value)" onchange="
+    moneyConverter1(this.value)">
+</p>
+<p>TENGE: <span id="outputtenge"></span></p>
+</div>
+
+</body>
+<script src="/main.js"></script>
+</html>
